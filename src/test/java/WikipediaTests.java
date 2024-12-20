@@ -15,7 +15,7 @@ public class WikipediaTests extends TestBase {
     }
 
     @Test
-    void androidUnsuccessfulAeroflotTest() {
+    void androidUnsuccessfulSearchTest() {
         mainScreen.searchQuery("Java");
         searchResultScreen.clickFirstResult();
         errorScreen.checkError("An error occurred");
